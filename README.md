@@ -1,24 +1,21 @@
-# mx-ui
+# mxui-ui
 
-## Project setup
-```
-npm install
-```
+一个基于Vu2.x的移动端vue组件库
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Install
+
+```shell
+npm install mxui-ui -s
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### Quickstart
+
+```js
+import Vue from 'vue'
+import Mxui from 'mxui-ui'
+import 'mxui-ui/dist/mxui-ui.css'
+
+Vue.use(Mxui)
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

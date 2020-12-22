@@ -1,7 +1,11 @@
 {
   "name": "mx-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "main": "dist/mxui-ui.umd.min.js",
+  "author": {
+    "name": "mxrock"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,11 +14,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "mxui-ui": "^0.1.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
-    "@vue/cli-plugin-eslint": "^4.5.0", 
+    "@vue/cli-plugin-eslint": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
