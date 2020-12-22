@@ -1,4 +1,4 @@
-# mx-ui
+# mxui-ui
 
 ## Project setup
 ```
