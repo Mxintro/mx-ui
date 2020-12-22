@@ -9,7 +9,7 @@ const components = [
   MxSwiper,
   MxDialog,
   MxGrid,
-  MxNavBar
+  MxNavBar,
 ]
 
 const install = function (Vue) {
@@ -30,5 +30,5 @@ export default {
   MxSwiper,
   MxDialog,
   MxGrid,
-  MxNavBar
+  MxNavBar,
 }
