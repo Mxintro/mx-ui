@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "swiperItem",
+  name: "MxSwiperItem",
 
 }
 </script>

@@ -8,13 +8,11 @@
 
 <script>
 export default {
-    name: "NavBar"
-
-}
+  name: "MxNavBar",
+};
 </script>
 
 <style>
-
 #nav-bar {
   position: relative;
   z-index: 10;
@@ -38,10 +36,10 @@ export default {
   width: 60px;
 }
 
-.nav-left img, .nav-right img {
+.nav-left img,
+.nav-right img {
   width: 22px;
   height: 22px;
   vertical-align: middle;
 }
-
 </style>

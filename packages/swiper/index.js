@@ -1,7 +1,3 @@
-import Swiper from './Swiper.vue'
-import SwiperItem from './swiperItem.vue'
+import MxSwiper from './MxSwiper.vue'
 
-export {
-  Swiper,
-  SwiperItem,
-}
+export default MxSwiper
