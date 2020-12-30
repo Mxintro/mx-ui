@@ -1,10 +1,10 @@
 # Dialog
+一个空白弹框，可高度自定义里面内容
 
 ## Usage
 
 ```html
-<mx-dialog :visible.sync="dialogVisible" opened="onPened">
-    <slot></slot>
+<mx-dialog :visible.sync="dialogVisible" @opened="onOpened">
 </mx-dialog>
 ```
 
@@ -24,4 +24,6 @@
 | ------ | --------------------------- | --------- |
 | opened | Dialog 打开动画结束时的回调 |           |
 | closed | Dialog 关闭的回调           |           |
+
+
 
