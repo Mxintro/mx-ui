@@ -1,5 +1,5 @@
 # swiper
-自适应网格组件。
+轮播图组件，配合swiper-item使用。
 
 ## Usage
 
